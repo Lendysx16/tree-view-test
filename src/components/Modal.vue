@@ -56,6 +56,9 @@ const modelValue = defineModel<boolean>("modelValue", { required: true, default:
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    @media screen and (width < 768px) {
+        width: 80%;
+    }
 }
 
 .modal__title {
